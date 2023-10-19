@@ -10,7 +10,7 @@ bool isNumber = int.TryParse(stringNumber, out number);
 if (isNumber && stringNumber.Length >= 3) // isNumber == True
 {
     Console.WriteLine($"{stringNumber} => {stringNumber[2]}");
-    if(number > 100)
+    if(number < 100)
     {
     Console.WriteLine($"Введеное число меньше 3х символов");
     }
